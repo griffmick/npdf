@@ -17,19 +17,27 @@ Python 3.x
 
 1. Clone this repo:
 
-```git clone https://github.com/griffmick/npdf && cd npdf```
+```
+git clone https://github.com/griffmick/npdf && cd npdf
+```
 
 2. Activate your Python virtual environment:
 
-```python -m venv .venv && source .venv/bin/activate```
+```
+python -m venv .venv && source .venv/bin/activate
+```
 
 3. Install the pre-requisite import modules:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 4. Freeze the stuff as a self contained binary and deactivate your Python virtual environment:
 
-```pyinstaller -F npdf.py && deactivate```
+```
+pyinstaller -F npdf.py && deactivate
+```
 
 5. Pray that it doesn't get any harder than copying the dist/npdf executable to somewhere usable (/usr/local/bin, or maybe even on your $PATH).
 
