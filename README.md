@@ -21,7 +21,7 @@ Python 3.x
 
 2. Activate your Python virtual environment:
 
-```pip -m venv .venv && source .venv/bin/activate```
+```python -m venv .venv && source .venv/bin/activate```
 
 3. Install the pre-requisite import modules:
 
